@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* GLOBAL RESET */
+body {
+  background-color: #f1f5f9; /* soft gray */
+  color: #1e293b; /* dark text */
+  font-family: Inter, system-ui, sans-serif;
+}
+
+/* Smooth UI feel */
+* {
+  transition: all 0.2s ease;
+}
